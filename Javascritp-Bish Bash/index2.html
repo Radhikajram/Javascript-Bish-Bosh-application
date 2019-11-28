@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Bish Bosh - v2.0</header>
+<br></br>
+<div class="description">
+<p> Bish-Bosh application prints range of numbers,inputed through the field Loop Through util filed.</p>
+<p> If the number is divisible by 'BishInput' it prints the word 'Bish' not the actual number. </p>
+<p> If the number is divisible by 'BoshInput' it prints the word 'Bosh' not the actual number. </p>
+<P> If the number is divisible by both 'BishInput' and 'BoshInput' it prints the word 'Bish-Bosh'. </p>
+<p> The input is restricted to only integer numbers not float. Also we cannot enter any non-numeric values. </p>
+</div>
+
+<br></br>
+	<div class="inputData">
+
+	<label for="Loop Through till">Loop Through till :</label>
+	<input type="number" id="LoopUntil" name="Loop Through till" ondrop="return false" onpaste="return false" onfocus="this.value=''"
+				 onkeypress='return event.charCode>=48 && event.charCode<=57' >
+	<br></br>
+	<label for="Bish">Input-Bish :</label>
+	<input type="text" id="bish" name="Bish"  ondrop="return false" onpaste="return false" onfocus="this.value=''"
+				 onkeypress='return event.charCode>=48 && event.charCode<=57'>
+	<br></br>
+	<label for="Bosh">Input-Bosh :</label>
+	<input type="text" id="bosh" name="Bosh"  ondrop="return false" onpaste="return false" onfocus="this.value=''"
+				 onkeypress='return event.charCode>=48 && event.charCode<=57'>
+
+	<br></br>
+	
+	</div>
+
+	<div class="wrapper">
+	<button onclick="myFunction()">Generate Bish-Bosh series </button>
+	</div>
+
+    <br>
+
+	<div class="result">
+	<p id="demo"></p>
+	</div>
+
+<footer>
+	<p> CopyWrite © Bish Bosh Application - Radhika </p>
+
+</footer>	
+</body>
+	<script src='bishbosh.js' type='text/javascript' /></script>
+</html> 

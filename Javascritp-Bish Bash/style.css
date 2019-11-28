@@ -1,0 +1,46 @@
+body {
+	background-color: #d0d3d4;
+}
+
+header {
+	 padding: 30px;
+	 font-size: 40px;
+	 font-style: fantasy;
+	text-align: center;
+	background-color: #dc7633 ;
+}
+#LoopUntil, #bish, #bosh {
+	align-items: center;
+}
+
+footer {
+	bottom: 0;
+	position: relative;
+	height: 70px;
+	width: 100%;
+	background-color: #dc7633 ;
+
+}
+footer p {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+
+}
+.inputData, .description{
+		border: 3px solid #73AD21;
+		margin: auto;
+		width: 30%;
+		padding: 30px;
+}
+.inputData label {
+ 	display: inline-block;
+    width: 160px;
+    text-align: right;
+ }
+ 
+ .wrapper {
+ 	padding: 30px;
+    text-align: center;
+}
+
